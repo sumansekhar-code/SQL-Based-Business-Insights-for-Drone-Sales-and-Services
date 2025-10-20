@@ -1,86 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-</head>
-<body>
-<div class="container py-5">
-<div class="text-center mb-4">
-<h1>Xeta Squad Ltd – Sales and Employees Data Analysis</h1>
-<p class="lead">An end-to-end SQL Server project demonstrating database design, analytics, and reporting.</p>
-</div>
-
-
+<h1><center><b>SQL-Based Business Insights for Drone Sales and Services</b></center></h1>
 <div class="section">
-<h2> Overview</h2>
-<p>This project analyzes sales and Employees data for <strong>Xeta Squad Ltd</strong>, a drone manufacturing and services company. It demonstrates <em>database design</em>, <em>data manipulation</em>, <em>advanced SQL queries</em> in Microsoft SQL Server.</p>
-</div>
-
-
-<div class="section">
-<h2>Database Design</h2>
+<h2>🎯 Project Objective</h2>
+<par>
+The objective of this project is to analyze the sales performance of Xeta Squad Ltd, a drone manufacturing and service company, using SQL Server. The project focuses on transforming raw transactional data into meaningful business insights by generating key reports such as Revenue Analysis, Top Customer Analysis, and Sales Performance Reports.
+</par>
+<h4>Through this analysis, the goal is to:</h4>
 <ul>
-<li>Five core tables: <code>Employees</code>, <code>Departments</code>, <code>Products</code>, <code>Customers</code>, <code>Sales</code>.</li>
-<li>Primary and foreign keys ensure referential integrity.</li>
-<li>ER-Diagram:</li>
-  <img src="ER-Diagram.png" alt="ER Diagram" class="screenshot mt-3" style="width: 70%; height:50%;">
+  <li>Identify top-performing products, customers, and regions</li>
+  <li>Evaluate overall revenue trends and growth patterns</li>
+  <li>Support strategic decision-making for sales optimization and business expansion</li>
 </ul>
+</div>
 
+<div class="section">
+<h2>🗄 Database Design</h2>
+<ul>
+<li>Normalized Tables: Designed separate tables for <code>Employees</code>, <code>Departments</code>, <code>Customers</code>, <code>Products</code>, <code>Sales </code> to reduce redundancy and maintain data integrity.</li>
+<li>Primary & Foreign Keys: Established primary keys for each table and foreign key relationships to connect customers, sales, and products for efficient querying.</li>
+<li>Optimized for Analysis: Structured tables to allow easy aggregation and reporting, enabling creation of Revenue Reports, Top Customer Analysis, and Product Performance Insights.</li>
+</ul>
+<h3><i><b>ER Diagram</b></i></h3>
+<img src="Documentation/ER-Diagram.png" alt="ER Diagram" class="screenshot mt-3">
 </div>
 
 
 <div class="section">
-<h2> Features</h2>
+<h2>📊 Features</h2>
 <ul>
-<li>Realistic sample data for employees, customers, products, and sales.</li>
-<li>Analytics for finding revenue insigts. </li>
-<li>Analytical queries: aggregations, joins, subqueries.</li>
+<li>Comprehensive Sales Insights: Generates detailed reports on revenue, top customers, product performance, and regional sales trends.</li>
+<li>Data-Driven Decision Support: Helps the company identify high-value customers, top-selling products, and peak sales periods for strategic planning. </li>
+<li>SQL-Based Analysis: Uses SQL queries to extract, aggregate, and analyze business data efficiently, demonstrating hands-on data analytics skills.</li>
 </ul>
 </div>
 
 
 <div class="section">
-<h2>Insights & Reports</h2>
-<ul>
-<li>Top revenue-generating products.</li>
-  <img src="Revenue_Report.png" alt="Revenue Report Screenshot" class="screenshot mt-3">
-<li>Top customer analysis by state.</li>
-  <img src="Top_Customers_Analysis.png" alt="Revenue Report Screenshot" class="screenshot mt-3">
-<!-- <li>Highest-paid employees and department comparisons.</li>
-  <img src="revenue_report.png" alt="Revenue Report Screenshot" class="screenshot mt-3">
-<li>Monthly revenue trends for decision support.</li>
-  <img src="revenue_report.png" alt="Revenue Report Screenshot" class="screenshot mt-3"> -->
-</ul>
+<h2>📈 Insights & Reports</h2>
+
+<h3><i><b>Revenue Reports</b></i></h3>
+<par>Summarizes the total revenue generated from drone sales, accessories, and services, highlighting overall business performance and trends.</par>
+<img src="Reports/Revenue_Report.png" alt="Revenue Report Screenshot" class="screenshot mt-3">
+  
+<h3><i><b>Top Customers Sales Analysis</b></i></h3>
+<par>Identifies the highest-spending customers and their contribution to total revenue, helping prioritize key accounts and relationships.</par>
+<img src="Reports/Top_Customers_Analysis.png" alt="Top Customers Sales Analysis Screenshot" class="screenshot mt-3">
+
+<h3><i><b>Product Performance Analysis</b></i></h3>
+<par>Shows the sales performance of individual drone models and accessories, highlighting top-selling and underperforming products.</par>
+<img src="Reports/Product_Performance_Analysis.png" alt="Product Performance Analysis Screenshot" class="screenshot mt-3">
+
+<h3><i><b>Region-wise Sales Analysis</b></i></h3>
+<par>Breaks down sales by region or city to identify high-performing areas and potential markets for business expansion.</par>
+<img src="Reports/Region_wise_sales_Report.png" alt="Region-wise Sales Analysis Screenshot" class="screenshot mt-3">
+
+<h3><i><b>Monthly Sales Trend</b></i></h3>
+<par>Tracks sales over months/quarters to reveal peak periods and seasonal trends for better business planning.</par>
+<img src="Reports/Monthly_Sales_Trend.png" alt="Monthly Sales Trend Screenshot" class="screenshot mt-3">
+
+<h3><i><b>Customer Segmentation</b></i></h3>
+<par>Groups customers based on total purchases to identify high-value clients and inform targeted marketing strategies.</par>
+<img src="Reports/Customer_Segmentation.png" alt="Customer Segmentation Screenshot" class="screenshot mt-3">
+
+<h3><i><b>Service vs Product Revenue Report</b></i></h3>
+<par>Groups customers based on total purchases to identify high-value clients and inform targeted marketing strategies.</par>
+<img src="Reports/Service_VS_Product_Revenue.png" alt="Service vs Product Revenue Report Screenshot" class="screenshot mt-3">
 </div>
 
 
 
 <div class="section">
-<h2> Folder Structure</h2>
+<h2>📂 Folder Structure</h2>
 <pre>
-Xeta_Squad_Ltd_Project/
+SQL-Based Business Insights for Drone Sales and Services/
 ├─ README.html
 ├─ Database/
 │ ├─ create_database.sql
 │ ├─ insert_data.sql
-│ └─ data_analysis-1.sql
-│ 
+│ ├─ analysis_queries.sql
+│ └─ views_triggers.sql
 ├─ Reports/
 │ ├─ revenue_report.png
 │ └─ top_customers.png
-│  
-└─ Documentation/
-  ├─ ER_Diagram.png
-  └─ Project_Report.pdf
-
+├─ Documentation/
+│ ├─ ER_Diagram.png
+│ └─ Project_Report.pdf
+└─ LICENSE
 </pre>
 </div>
 
 
 <div class="section">
-<h2> Getting Started</h2>
+<h2>🚀 Getting Started</h2>
 <ol>
 <li>Clone this repository.</li>
 <li>Open Microsoft SQL Server Management Studio (SSMS).</li>
@@ -95,5 +106,8 @@ Xeta_Squad_Ltd_Project/
 </body>
 
 </html>
+
+
+
 
 
