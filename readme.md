@@ -21,7 +21,7 @@ The objective of this project is to analyze the sales performance of Xeta Squad 
 <li>Optimized for Analysis: Structured tables to allow easy aggregation and reporting, enabling creation of Revenue Reports, Top Customer Analysis, and Product Performance Insights.</li>
 </ul>
 <h3><i><b>ER Diagram</b></i></h3>
-<img src="Documentation/ER-Diagram.png" alt="ER Diagram" class="screenshot mt-3">
+<img src="ER-Diagram.png" alt="ER Diagram" class="screenshot mt-3">
 </div>
 
 
@@ -40,31 +40,31 @@ The objective of this project is to analyze the sales performance of Xeta Squad 
 
 <h3><i><b>Revenue Reports</b></i></h3>
 <par>Summarizes the total revenue generated from drone sales, accessories, and services, highlighting overall business performance and trends.</par>
-<img src="Reports/Revenue_Report.png" alt="Revenue Report Screenshot" class="screenshot mt-3">
+<img src="Revenue_Report.png" alt="Revenue Report Screenshot" class="screenshot mt-3">
   
 <h3><i><b>Top Customers Sales Analysis</b></i></h3>
 <par>Identifies the highest-spending customers and their contribution to total revenue, helping prioritize key accounts and relationships.</par>
-<img src="Reports/Top_Customers_Analysis.png" alt="Top Customers Sales Analysis Screenshot" class="screenshot mt-3">
+<img src="Top_Customers_Analysis.png" alt="Top Customers Sales Analysis Screenshot" class="screenshot mt-3">
 
 <h3><i><b>Product Performance Analysis</b></i></h3>
 <par>Shows the sales performance of individual drone models and accessories, highlighting top-selling and underperforming products.</par>
-<img src="Reports/Product_Performance_Analysis.png" alt="Product Performance Analysis Screenshot" class="screenshot mt-3">
+<img src="Product_Performance_Analysis.png" alt="Product Performance Analysis Screenshot" class="screenshot mt-3">
 
 <h3><i><b>Region-wise Sales Analysis</b></i></h3>
 <par>Breaks down sales by region or city to identify high-performing areas and potential markets for business expansion.</par>
-<img src="Reports/Region_wise_sales_Report.png" alt="Region-wise Sales Analysis Screenshot" class="screenshot mt-3">
+<img src="Region_wise_sales_Report.png" alt="Region-wise Sales Analysis Screenshot" class="screenshot mt-3">
 
 <h3><i><b>Monthly Sales Trend</b></i></h3>
 <par>Tracks sales over months/quarters to reveal peak periods and seasonal trends for better business planning.</par>
-<img src="Reports/Monthly_Sales_Trend.png" alt="Monthly Sales Trend Screenshot" class="screenshot mt-3">
+<img src="Monthly_Sales_Trend.png" alt="Monthly Sales Trend Screenshot" class="screenshot mt-3">
 
 <h3><i><b>Customer Segmentation</b></i></h3>
 <par>Groups customers based on total purchases to identify high-value clients and inform targeted marketing strategies.</par>
-<img src="Reports/Customer_Segmentation.png" alt="Customer Segmentation Screenshot" class="screenshot mt-3">
+<img src="Customer_Segmentation.png" alt="Customer Segmentation Screenshot" class="screenshot mt-3">
 
 <h3><i><b>Service vs Product Revenue Report</b></i></h3>
 <par>Groups customers based on total purchases to identify high-value clients and inform targeted marketing strategies.</par>
-<img src="Reports/Service_VS_Product_Revenue.png" alt="Service vs Product Revenue Report Screenshot" class="screenshot mt-3">
+<img src="Service_VS_Product_Revenue.png" alt="Service vs Product Revenue Report Screenshot" class="screenshot mt-3">
 </div>
 
 
@@ -73,19 +73,19 @@ The objective of this project is to analyze the sales performance of Xeta Squad 
 <h2>📂 Folder Structure</h2>
 <pre>
 SQL-Based Business Insights for Drone Sales and Services/
-├─ README.html
-├─ Database/
-│ ├─ create_database.sql
-│ ├─ insert_data.sql
-│ ├─ analysis_queries.sql
-│ └─ views_triggers.sql
-├─ Reports/
-│ ├─ revenue_report.png
-│ └─ top_customers.png
-├─ Documentation/
-│ ├─ ER_Diagram.png
-│ └─ Project_Report.pdf
-└─ LICENSE
+├─ README.md
+├─ create_database.sql
+├─ analysis_queries.sql
+├─ views_triggers.sql
+├─ Product_Performance_Analysis.png
+├─ Region_wise_sales_Report.png
+├─ Top_Customers_Analysis.png
+├─ Region_wise_sales_Report.png
+├─ Monthly_Sales_Trend.png
+├─ Customer_Segmentation.png
+├─ Service_VS_Product_Revenue.png
+├─ Top_Customers_Analysis.png
+└─ ER_Diagram.png
 </pre>
 </div>
 
@@ -106,6 +106,7 @@ SQL-Based Business Insights for Drone Sales and Services/
 </body>
 
 </html>
+
 
 
 
